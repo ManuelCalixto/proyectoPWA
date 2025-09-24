@@ -1,11 +1,11 @@
-self.addEventListener('install', (e) => {
+self.addEventListener('install', (event) => {
     console.info('[SW] Install...');
 });
 
-self.addEventListener('activate', async (e) => {
+self.addEventListener('activate', async (event) => {
     console.info('[SW] Activate...');
 });
 
-self.addEventListener('fetch', (e) => {
+self.addEventListener('fetch', (event) => {
     console.info('[SW] Fetch...');
 });

@@ -49,8 +49,8 @@
 }
 
 .svg--container div {
-  height: 210px;
-  background: var(--dark-primary) url('../images/computer.jpg');
+  height: 230px;
+  background: var(--dark-primary) url('../images/uttc.jpg');
   background-position: bottom;
   background-size: cover;
   object-fit: cover;
@@ -117,6 +117,7 @@
   color: var(--white) !important;
   display: flex;
   flex-direction: row;
+  cursor: pointer;
 }
 
 .app--install:hover {
@@ -140,11 +141,12 @@
   color: var(--white) !important;
   display: flex;
   flex-direction: row;
+  cursor: pointer;
 }
 
 .notifications--install:hover{
   background: var(--dark-secondary) !important;
-  
+
 }
 
 

@@ -9,6 +9,7 @@
     "not safari <= 18.6"
   ],
   "hints": {
-    "apple-touch-icons": "off"
+    "apple-touch-icons": "off",
+    "manifest-is-valid": "off"
   }
 }
