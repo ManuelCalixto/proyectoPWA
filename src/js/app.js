@@ -1,10 +1,11 @@
-let main;
-let modalPost;
-let addPost;
-let btnShowPost;
-let btnCancelPost;
-let eventoModalPrompt;
-let btnInstall;
+let main, modalPost, addPost, btnShowPost, btnCancelPost, eventoModalPrompt, btnInstall;
+// ELIMINACION DE CODIGO INNECESARIO
+//  modalPost;
+//  addPost;
+//  btnShowPost;
+// btnCancelPost;
+// eventoModalPrompt;
+// btnInstall;
 
 // CUANDO SE CARGUE TODO NUESTRO DOM
 window.addEventListener('load', async () => {
