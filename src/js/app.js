@@ -37,10 +37,11 @@ window.addEventListener('load', async () => {
     //detectar si la app ya está instalada
     btnInstall.addEventListener("click", async () => {
         if (!eventoModalPrompt) {
-            console.log("❌ No hay eventoModalPrompt disponible");
+            console.log("❌ No hay evento disponible del modal");
             return;
         }
         eventoModalPrompt.prompt();
+        //capturar la respuesta del usuario
         const {prueba} = await eventoModalPrompt.userChoice;
         // console.log(prueba);
         eventoModalPrompt = null;
